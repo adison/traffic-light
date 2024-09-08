@@ -1,4 +1,21 @@
 
+# Summary
+
+I build this code to make an easy traffic light for my kid. This project will light Green/Yellow/Red LEDs one by one.
+All you have to do is link them with Pin 0/1/2 just like the photo.
+Something you might need know:
+
+- The resistor is 220Ω, you can remove it, but it would be safe to LEDs if you install it.
+- Clip LED positive side
+- I would suggest to find Green/Yellow/Red clip to match LEDs, but it is not necessary.
+
+![the all circuit](overall.jpeg)
+
+![Led circuit](LED_link.jpeg)
+
+Below are original text from Micro:bit
+
+```text
 > 在 [https://adison.github.io/traffic-light/](https://adison.github.io/traffic-light/) 打開此頁面
 
 ## 作為擴充功能使用
@@ -22,3 +39,5 @@
 
 * for PXT/microbit
 <script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+
+```
